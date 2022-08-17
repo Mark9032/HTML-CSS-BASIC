@@ -1,0 +1,50 @@
+h1 {
+    color:red;
+}
+p {
+    color:blue;
+    font-size: 10pt;
+}
+#parrafo1 {
+    color:green; 
+    font-size:15pt;
+
+/*usando # y el nombre de la id en el html,
+ modifico en el css, esa etiqueta en especifico*/
+
+}
+#parrafo2 {
+    color:aqua; 
+    font-size:20pt;
+}
+
+.encabezado {
+    color:bisque;
+    font-size:30pt;
+    text-transform:uppercase;
+}
+
+.autor, .fecha, .ubicacion{
+    color:brown;
+}
+
+.autor{
+    text-decoration:underline;
+}
+
+.fecha{
+    text-decoration:underline;
+}
+.ubicacion{
+    text-decoration:underline;
+}
+
+
+
+/* los * son selectores universales, eso quiere decir que
+si pongo * y al lado la clase que quiero modificar , por ejemplo 
+class="principal" en el html , cuando yo pongo lo siguiente en css
+*principal { color:red;} , se cambian todos los elementos que tengan 
+esa clase por defecto a color rojo.
+
+/*el font-size se usa para el tamano*/
